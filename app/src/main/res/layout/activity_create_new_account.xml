@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/create_acc_backgroung"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/outline_almost_white" />
+
+
+    <EditText
+        android:id="@+id/cnaNickNameEDTV"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="180dp"
+        android:layout_alignParentTop="true"
+        android:backgroundTint="@color/almost_white"
+        android:ems="10"
+        android:fontFamily="@font/main_font"
+        android:hint="nick"
+        android:inputType="text"
+        android:textColor="@color/almost_white"
+        android:textColorHint="@color/almost_white"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/cnaEmailEDTV"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/almost_white"
+        android:textColor="@color/almost_white"
+        android:backgroundTint="@color/almost_white"
+        android:layout_below="@id/cnaNickNameEDTV"
+        android:textStyle="italic"
+        android:hint="e-mail"
+        android:layout_centerInParent="true"
+        />
+
+    <EditText
+        android:id="@+id/cnaPasswordEDTV"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginTop="5dp"
+        android:textColorHint="@color/almost_white"
+        android:textColor="@color/almost_white"
+        android:backgroundTint="@color/almost_white"
+        android:layout_below="@id/cnaEmailEDTV"
+        android:textStyle="italic"
+        android:layout_centerInParent="true"
+        android:hint="password"
+        />
+
+    <EditText
+        android:id="@+id/cnaRPasswordEDTV"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        android:inputType="textPassword"
+        android:textColor="@color/almost_white"
+        android:textColorHint="@color/almost_white"
+        android:backgroundTint="@color/almost_white"
+        android:layout_below="@id/cnaPasswordEDTV"
+        android:layout_centerInParent="true"
+        android:hint="repeat password"
+        android:textStyle="italic"
+
+        />
+
+    <Button
+        android:id="@+id/cnaRegisterBtn"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cnaRPasswordEDTV"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/main_font"
+        android:text="Register"
+        android:textColor="@color/main_bottom_color_darker_blue"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/cnaAlreadyHaveAccountTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/main_font"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:text="Already have an account? Log in!"
+        android:layout_marginBottom="30dp"
+        android:textColor="@color/almost_white"
+        android:textStyle="italic|bold" />
+
+
+
+</RelativeLayout>

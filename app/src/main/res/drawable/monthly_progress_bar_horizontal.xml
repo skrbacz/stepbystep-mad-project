@@ -1,0 +1,29 @@
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background -->
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="#FFCF70"/>
+        </shape>
+    </item>
+
+    <!-- Progress -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <!-- Gradient for the progress bar (white to blue) -->
+                <gradient
+                    android:startColor="@color/almost_white"
+                    android:centerColor="@color/highlight_bottom_color_lighter_blue"
+                    android:endColor="@color/main_bottom_color_darker_blue"
+                    android:angle="0"
+                    />
+
+                <!-- Set the height (thickness) of the progress indicator -->
+                <size android:height="20dp"/>
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

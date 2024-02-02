@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/buttom_home"
+        android:title="Home"
+        android:icon="@drawable/home_svgrepo_com"/>
+
+    <item
+        android:id="@+id/button_profile"
+        android:title="Profile"
+        android:icon="@drawable/person_svgrepo_com"/>
+
+<!--    <item-->
+<!--        android:id="@+id/buttom_scoreboard"-->
+<!--        android:title="Scoreboard"-->
+<!--        android:icon="@drawable/star_filled_svgrepo_com"/>-->
+    <item
+        android:id="@+id/buttom_settings"
+        android:title="Settings"
+        android:icon="@drawable/settings_ui_svgrepo_com"/>
+
+</menu>

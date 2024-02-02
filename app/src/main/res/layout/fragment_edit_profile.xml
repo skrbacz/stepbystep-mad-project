@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/almost_white"
+       >
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/outline_dark_blue" />
+
+        <FrameLayout
+            android:id="@+id/update_nickFRAME"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <EditText
+                android:id="@+id/newNickEDTV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/main_bottom_color_darker_blue"
+                android:ems="10"
+                android:fontFamily="@font/main_font"
+                android:hint="provide new nick"
+                android:inputType="text"
+                android:textColor="@color/main_bottom_color_darker_blue"
+                android:textColorHint="@color/highlight_bottom_color_lighter_blue"
+                android:textStyle="italic" />
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <Button
+                android:id="@+id/updateNickBTN"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/orange"
+                android:fontFamily="@font/main_font"
+                android:text="update nick"
+                android:textColor="@color/main_bottom_color_darker_blue"
+                android:textStyle="bold|italic" />
+
+        </FrameLayout>
+
+<!--        <FrameLayout-->
+<!--            android:id="@+id/update_profile_picture"-->
+<!--            android:layout_marginTop="125dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="100dp">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:text="UPLOAD PHOTO"-->
+<!--                android:backgroundTint="@color/orange"-->
+<!--                android:textColor="@color/main_bottom_color_darker_blue"-->
+<!--                android:fontFamily="@font/main_font"-->
+<!--                android:textStyle="italic|bold"/>-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button2"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_gravity="bottom"-->
+<!--                android:text="UPDATE PICTURE"-->
+<!--                android:backgroundTint="@color/orange"-->
+<!--                android:textColor="@color/main_bottom_color_darker_blue"-->
+<!--                android:fontFamily="@font/main_font"-->
+<!--                android:textStyle="italic|bold"/>-->
+<!--        </FrameLayout>-->
+
+<!--        <FrameLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:id="@+id/done_frame"-->
+<!--            android:layout_height="65dp"-->
+<!--            android:layout_gravity="bottom">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/doneBTN"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_weight="1"-->
+<!--                android:backgroundTint="@color/highlight_bottom_color_lighter_blue"-->
+<!--                android:fontFamily="@font/main_font"-->
+<!--                android:text="DONE"-->
+<!--                android:textColor="@color/orange"-->
+<!--                android:textStyle="bold|italic" />-->
+<!--        </FrameLayout>-->
+
+
+    </FrameLayout>
+
+</RelativeLayout>

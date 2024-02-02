@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_register_activities.LoginActivity"
+    android:background="@drawable/login_background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/outline_dark_blue" />
+
+
+    <EditText
+        android:id="@+id/loginEmailEDTV"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:layout_marginTop="180dp"
+        android:backgroundTint="@color/main_bottom_color_darker_blue"
+        android:fontFamily="@font/main_font"
+        android:hint="e-mail"
+        android:textColor="@color/main_bottom_color_darker_blue"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/highlight_bottom_color_lighter_blue"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/loginPasswordEDTV"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginEmailEDTV"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/main_bottom_color_darker_blue"
+        android:backgroundTint="@color/main_bottom_color_darker_blue"
+        android:ems="10"
+        android:hint="password"
+        android:fontFamily="@font/main_font"
+        android:textStyle="italic"
+        android:inputType="textPassword"
+        android:textColorHint="@color/highlight_bottom_color_lighter_blue" />
+
+    <Button
+        android:id="@+id/loginLoginBtn"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginPasswordEDTV"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/main_font"
+        android:text="Log in"
+        android:textColor="@color/main_bottom_color_darker_blue"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/loginForgotYourPasswordTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginLoginBtn"
+        android:textColor="@color/main_bottom_color_darker_blue"
+        android:layout_centerInParent="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="10dp"
+        android:text="Forgotten Password?"
+        android:fontFamily="@font/main_font"
+        android:textStyle="italic"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/loginCreateNewAccount"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/main_font"
+        android:text="Create new account"
+        android:textColor="@color/main_bottom_color_darker_blue"
+        android:textStyle="italic|bold" />
+
+    <TextView
+        android:id="@+id/gameChangerBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ok"
+        android:padding="30dp"
+        android:clickable="true"/>
+
+
+</RelativeLayout>

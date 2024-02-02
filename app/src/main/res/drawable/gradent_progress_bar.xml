@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <!-- Background color (if needed) -->
+            <solid android:color="#CCCCCC" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <gradient
+                    android:angle="0"
+                    android:endColor="#7CFC00"
+                    android:centerColor="#FBEC5D"
+                    android:startColor="#E60026"
+                    android:type="sweep"
+                    android:useLevel="false" />
+            </shape>
+        </clip>
+    </item>
+</selector>

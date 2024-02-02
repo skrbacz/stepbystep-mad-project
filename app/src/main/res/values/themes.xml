@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MAD_Project" parent="Theme.AppCompat.Light.DarkActionBar">
+      <item name="colorPrimary">@color/highlight_bottom_color_lighter_blue</item>
+      <item name="colorPrimaryVariant">@color/highlight_bottom_color_lighter_blue</item>
+      <item name="android:statusBarColor">@color/highlight_bottom_color_lighter_blue</item>
+    </style>
+
+    <style name="Theme.BottomNavigation" parent="Base.Theme.MAD_Project"/>
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/main_bottom_color_darker_blue</item>
+
+    </style>
+
+
+
+    <style name="Theme.Login" parent="Base.Theme.MAD_Project" />
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.MAD_Project</item>
+    </style>
+
+
+    <style name="Base.Theme.MAD_Project.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Base.Theme.MAD_Project.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Base.Theme.MAD_Project.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="55dp"
+    android:background="@drawable/settings_background"
+    android:orientation="vertical"
+    tools:context=".fragments.SettingsFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/outline_almost_white" />
+
+    <FrameLayout
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="67dp">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_below="@id/header_title"
+        android:id="@+id/magic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/buttons_frame"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/editProfileBTN"
+                android:layout_marginBottom="90dp"
+                android:background="@color/almost_white"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="italic|bold"
+                android:fontFamily="@font/main_font"
+                android:textColor="@color/main_bottom_color_darker_blue"
+                android:text="edit profile"
+                />
+
+            <Button
+                android:id="@+id/changeMonthlyGoalBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/almost_white"
+                android:text="change monthly goal"
+                android:layout_gravity="center"
+                android:textStyle="italic|bold"
+                android:fontFamily="@font/main_font"
+                android:textColor="@color/main_bottom_color_darker_blue"
+                android:layout_marginBottom="25dp"
+                />
+
+            <Button
+                android:id="@+id/notificationsBTN"
+                android:background="@color/almost_white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:text="notifications"
+                android:textStyle="italic|bold"
+                android:fontFamily="@font/main_font"
+                android:textColor="@color/main_bottom_color_darker_blue"/>
+
+            <Button
+                android:id="@+id/logOutBTN"
+                android:background="@color/orange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="15dp"
+                android:textStyle="italic|bold"
+                android:fontFamily="@font/main_font"
+                android:textColor="@color/main_bottom_color_darker_blue"
+                android:text="log out"
+                />
+
+        </FrameLayout>
+    </FrameLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">stepbystep</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="first_message_main">You got this!</string>
+    <string name="second_message_main">Keep it up!</string>
+    <string name="third_message_main">Halfway there!</string>
+    <string name="fourth_message_main">You\'re almost there!</string>
+    <string name="congratulations">Congratulations!</string>
+
+    <string name="dont_forget">Don\'t forget to step by step :)</string>
+    <string name="what_will_this_be">change this in values string</string>
+    <string name="reminders_notification_channel_id">notification_channel</string>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ivory">#ffffea</color>
+    <color name="shamrock_green">#399e5a</color>
+    <color name="darker_shamrock_green">#26693C</color>
+    <color name="coral_pink">#ff9b85</color>
+    <color name="van_dyke">#484041</color>
+    <color name="snackbar_success">#bfcc94</color>
+    <color name="snackbar_failure">#e6aace</color>
+
+    
+    <color name="asparagus">#749E35</color>
+    <color name="apple_green">#8ABC40</color>
+    <color name="aureolin">#F2E318</color>
+    <color name="gold">#FFD400</color>
+    <color name="orange_peel">#FF9D00</color>
+
+    <color name="log_out_clr">#EF0107</color>
+
+    <color name="main_bottom_color_darker_blue">#0D76C2</color>
+    <color name="highlight_bottom_color_lighter_blue">#0D99FF</color>
+    <color name="orange">#FFE0A3</color>
+    <color name="almost_white">#FAFCFB</color>
+
+
+</resources>
+

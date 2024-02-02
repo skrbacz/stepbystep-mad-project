@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="55dp"
+    android:background="@drawable/bckgrnd_main"
+    android:orientation="vertical"
+    tools:context=".fragments.HomeFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp">
+
+        <ImageView
+            android:id="@+id/addStepsMBTN"
+            android:layout_width="73dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:padding="10dp"
+            android:clickable="true"
+            android:src="@drawable/baseline_add_24" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="127dp">
+
+        <TextView
+            android:id="@+id/welcomeMessageHF"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/main_font"
+            android:text="Hello $nick!"
+            android:gravity="center"
+            android:textColor="@color/main_bottom_color_darker_blue"
+            android:textSize="20sp"
+
+            android:textStyle="italic" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="336dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="350dp"
+            android:layout_height="270dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/oval_main" />
+
+        <com.mikhaellopez.circularprogressbar.CircularProgressBar
+            android:id="@+id/progress_circular"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            app:cpb_background_progressbar_color="@color/highlight_bottom_color_lighter_blue"
+            app:cpb_background_progressbar_color_direction="left_to_right"
+            app:cpb_background_progressbar_width="1dp"
+            app:cpb_progress_direction="to_right"
+            app:cpb_progress_max="0"
+            app:cpb_progressbar_color_direction="right_to_left"
+            app:cpb_progressbar_color_end="@color/main_bottom_color_darker_blue"
+            app:cpb_progressbar_color_start="@color/highlight_bottom_color_lighter_blue"
+            app:cpb_progressbar_width="10dp"
+            app:cpb_round_border="true" />
+
+        <TextView
+            android:id="@+id/stepsTaken"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="142dp"
+            android:fontFamily="@font/main_font"
+            android:gravity="center"
+            android:text="--"
+            android:textColor="@color/main_bottom_color_darker_blue"
+            android:textSize="35sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/dailyGoalTV"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="190dp"
+            android:fontFamily="@font/main_font"
+            android:text="/ dgoal"
+            android:gravity="center"
+            android:textColor="@color/main_bottom_color_darker_blue"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/encouragementText"
+            android:layout_width="298dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/main_font"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/main_bottom_color_darker_blue"
+            android:textSize="35dp"
+            android:textStyle="italic|bold" />
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/set_monthly_goal_bckground"
+    >
+
+    <ImageView
+        android:id="@+id/outline_set_monthly_goal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/outline_almost_white" />
+
+    <TextView
+        android:id="@+id/welcomeMessageSMG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to stepbystep!"
+        android:fontFamily="@font/main_font"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/almost_white"
+        android:layout_alignStart="@id/instructionMessageSMG"
+        android:layout_above="@id/instructionMessageSMG"/>
+
+    <EditText
+        android:id="@+id/monthlyGoalOfSteps"
+        android:layout_width="240dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/almost_white"
+        android:ems="10"
+        android:fontFamily="@font/main_font"
+        android:hint="amount of steps"
+        android:inputType="number"
+        android:textColor="@color/almost_white"
+        android:textColorHint="@color/almost_white"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/instructionMessageSMG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/monthlyGoalOfSteps"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/main_font"
+        android:text="Please provide your monthly goal of steps!"
+        android:textColor="@color/almost_white"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/setGoalButton"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/monthlyGoalOfSteps"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/orange"
+        android:fontFamily="@font/main_font"
+        android:text="Set"
+        android:textColor="@color/main_bottom_color_darker_blue"
+        android:textStyle="italic|bold" />
+
+
+</RelativeLayout>

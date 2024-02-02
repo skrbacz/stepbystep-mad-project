@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalendarTheme" parent="Theme.AppCompat">
+
+        <item name="colorControlActivated">@color/orange</item>
+        <item name="android:textColorPrimary">@color/main_bottom_color_darker_blue</item>
+        <item name="android:fontFamily">@font/main_font</item>
+
+        <!-- Customize the text appearance -->
+    </style>
+
+    <style name="CalenderViewWeekCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/main_bottom_color_darker_blue</item>
+    </style>
+
+    <style name="CalenderViewDateCustomText">
+        <item name="android:textColor">@drawable/calendar_date_selector</item>
+        <item name="android:fontFamily">@font/main_font</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>
+

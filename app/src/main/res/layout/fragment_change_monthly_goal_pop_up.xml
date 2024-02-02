@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/almost_white"
+        >
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/outline_dark_blue" />
+
+        <Button
+            android:id="@+id/saveNewGoalBTN"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="50dp"
+            android:textColor="@color/main_bottom_color_darker_blue"
+            android:textStyle="italic|bold"
+            android:backgroundTint="@color/orange"
+            android:text="update" />
+
+        <EditText
+            android:id="@+id/newGoalEDT"
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="top|center"
+            android:ems="10"
+            android:hint="new goal"
+            android:textStyle="italic"
+            android:backgroundTint="@color/main_bottom_color_darker_blue"
+            android:textColor="@color/main_bottom_color_darker_blue"
+            android:textColorHint="@color/highlight_bottom_color_lighter_blue"
+            android:inputType="number" />
+
+    </FrameLayout>
+
+
+</RelativeLayout>
